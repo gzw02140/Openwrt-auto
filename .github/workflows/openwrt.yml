@@ -20,7 +20,7 @@ jobs:
       run: |
         wget https://github.com/vernesong/OpenClash/archive/master.zip
         unzip master.zip
-        mv -rf OpenClash-master/luci-app-openclash lede/package
+        mv OpenClash-master/luci-app-openclash lede/package
     - name: Update and install feeds
       run: |
         cd lede
