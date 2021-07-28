@@ -169,7 +169,7 @@ jobs:
         CONFIG_PACKAGE_kmod-usb-storage-uas=y
         # CONFIG_PACKAGE_kmod-xfrm-interface is not set
         CONFIG_PACKAGE_libcares=y
-        CONFIG_PACKAGE_luci-app-samba=y
+        # CONFIG_PACKAGE_luci-app-samba is not set
         # CONFIG_PACKAGE_luci-i18n-samba-ca is not set
         # CONFIG_PACKAGE_luci-i18n-samba-cs is not set
         # CONFIG_PACKAGE_luci-i18n-samba-de is not set
