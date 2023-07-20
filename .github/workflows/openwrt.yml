@@ -16,7 +16,7 @@ jobs:
       run: |
         cd lede
         echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-        echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+       # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
     - name: Clone openclash
       run: |
         wget https://github.com/vernesong/OpenClash/archive/master.zip
