@@ -1,4 +1,4 @@
-name: Build OpenWrt
+name: Build OpenWrt0724
 on: push
 jobs:
   build:
